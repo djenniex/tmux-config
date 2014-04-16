@@ -10,19 +10,19 @@ Installation
   Download:
 
 ```bash
-git clone https://github.com/tony/tmux-config.git ~/.tmux-tony
+git clone https://github.com/djenniex/tmux-config.git ~/.tmux
 ```
 
   Copy tmux config to home:
 
 ```bash
-ln -s ~/.tmux-tony/.tmux.conf ~/.tmux.conf
+ln -s ~/.tmux/.tmux.conf ~/.tmux.conf
 ```
 
   Go to config dir:
 
 ```bash
-cd ~/.tmux-tony
+cd ~/.tmux
 ```
 
 Stats
@@ -47,7 +47,7 @@ git submodule update
   Change dir to tmux-mem-cpu-load:
 
 ```bash
-cd ~/.tmux-tony/vendor/tmux-mem-cpu-load
+cd ~/.tmux/vendor/tmux-mem-cpu-load
 ```
 
   General make file:
@@ -90,10 +90,10 @@ tmux source-file ~/.tmux.conf
 sudo pip install psutil
 ```
 
-  copy ~/.tmux-tony/vendor/basic-cpu-and-memory.tmux to bin
+  copy ~/.tmux/vendor/basic-cpu-and-memory.tmux to bin
 
 ```bash
-sudo cp ~/.tmux-tony/vendor/basic-cpu-and-memory.tmux /usr/local/bin/tmux-mem-cpu-load
+sudo cp ~/.tmux/vendor/basic-cpu-and-memory.tmux /usr/local/bin/tmux-mem-cpu-load
 ```
 
   make executable
@@ -139,7 +139,5 @@ Commands
   * `Control + a` then `&` to kill window
 
 
-by Tony Narlock (tony@git-pull.com)
-
-* Github: http://www.github.com/tony
+Originally by Tony Narlock (tony@git-pull.com)
 * Website: http://www.git-pull.com
